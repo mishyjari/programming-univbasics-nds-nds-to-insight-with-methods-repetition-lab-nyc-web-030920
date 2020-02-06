@@ -49,8 +49,8 @@ def total_gross(source)
   
   total = 0
   
-  name = directors_totals(source)[0][:name]
-  puts name
+  puts directors_totals(source)
+
 
 end
 
