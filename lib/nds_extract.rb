@@ -49,7 +49,7 @@ def total_gross(source)
   
   total = 0
   
-  puts directors_totals(source)
+  puts directors_totals(source).length
 
 
 end
