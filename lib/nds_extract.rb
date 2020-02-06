@@ -49,7 +49,7 @@ def total_gross(source)
   
   total = 0
   
-  puts gross_for_director('')
+  puts gross_for_director('Stephen Spielberg')
   puts directors_totals(source)
 
 end
