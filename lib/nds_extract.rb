@@ -48,7 +48,7 @@ def total_gross(source)
   # return the total
   
   total = 0
-  
+  puts list_of_directors(source)
   puts directors_totals(source)
 
 end
