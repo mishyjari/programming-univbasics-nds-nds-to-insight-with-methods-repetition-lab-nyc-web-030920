@@ -52,13 +52,12 @@ def total_gross(source)
   
   while i < list_of_directors(source).length do
     name = list_of_directors(source)[i]
-    puts name
-    puts directors_totals(source)[name]
+    total += directors_totals(source)[name]
     i += 1
   end
   #puts list_of_directors(source)[0]
   #puts directors_totals(source)
-
+  total
 end
 
 
